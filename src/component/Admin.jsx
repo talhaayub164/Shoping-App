@@ -15,9 +15,10 @@ export function Admin(){
     <>
     
     <div className="login">
-      <input type='text' placeholder='Enter user name' value={user} onChange={(e) => setUser(e.target.value)}/>
+      <h1>Login Foam</h1>
+      <input type='text' id='in1' placeholder='Enter user name' value={user} onChange={(e) => setUser(e.target.value)}/>
       <br/>
-      <input type='password' placeholder='Enter password' value={password} onChange={(e) => setPassword(e.target.value)}/>
+      <input type='password'id='in2' placeholder='Enter password' value={password} onChange={(e) => setPassword(e.target.value)}/>
       <br/>
       <button id='submint' onClick={handleSubmit}>Submit</button>
     </div>

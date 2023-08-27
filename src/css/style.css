@@ -9,7 +9,37 @@
     display: flex;
     margin-top: 15vh;
 }
+.login{
+    margin-left: 40%;
+}
+#in1{
+    height: 4vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+#in2{
+    height: 4vh;
+    width: 20vw;
+    border-radius: 5px;
+    margin-top: 2vh;
 
+}
+#submint{
+    margin-left: 7vw;
+    margin-top: 2vh;
+    background-color: rgb(19, 19, 209);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+#submit:hover {
+    color: #088178; /* New background color when hovered */
+    transform: scale(2.05); /* Enlarge the button slightly on hover */
+    
+}
 .nav {
     justify-content: flex-end; /* Corrected property value */
     display: flex;
