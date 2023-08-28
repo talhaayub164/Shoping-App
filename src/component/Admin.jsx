@@ -5,7 +5,8 @@ export function Admin(){
   const [loggedIn,setLoggedIn] = useState("");
   const handleSubmit = () => {
       if (user === 'talha' && password === '12345') {
-          setLoggedIn(true);
+          setLoggedIn(true)
+          ;
 
         } else {
           alert('Username or password is incorrect. sorry, please try again');
